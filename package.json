@@ -41,7 +41,7 @@
   },
 
   "volo": {
-    "url": "https://raw.github.com/derickbailey/jasmine.async/v{version}/lib/amd/jasmine.async.js",
+    "url": "https://raw.github.com/derickbailey/jasmine.async/v{version}/lib/jasmine.async.js",
     "dependencies": {
     }
   },
@@ -49,9 +49,9 @@
   "jam":{
     "dependencies": {
     },
-    "main": "lib/amd/jasmine.async.js",
+    "main": "lib/jasmine.async.js",
     "include": [
-      "lib/amd/jasmine.async.js",
+      "lib/jasmine.async.js",
       "readme.md"
     ]
   }
