@@ -1,0 +1,58 @@
+{
+  "name": "Jasmine.Async",
+  "description": "Make Jasmine's asynchronous testing suck less.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/derickbailey/jasmine.async",
+  "keywords": [
+    "jasmine",
+    "async",
+    "unit",
+    "test",
+    "browser"
+  ],
+
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/derickbailey/jasmine.async/blob/master/readme.md"
+    }
+  ],
+
+  "author": {
+    "name": "Derick Bailey",
+    "email": "derickbailey@gmail.com",
+    "web": "http://derickbailey.lostechies.com"
+  },
+
+  "bugs": {
+    "web": "https://github.com/derickbailey/jasmine.async/issues"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derickbailey/jasmine.async.git"
+  },
+
+  "github": "https://github.com/derickbailey/jasmine.async",
+
+  "developmentDependencies": {
+    "grunt": "*",
+    "grunt-rigger": "*"
+  },
+
+  "volo": {
+    "url": "https://raw.github.com/derickbailey/jasmine.async/v{version}/lib/amd/jasmine.async.js",
+    "dependencies": {
+    }
+  },
+
+  "jam":{
+    "dependencies": {
+    },
+    "main": "lib/amd/jasmine.async.js",
+    "include": [
+      "lib/amd/jasmine.async.js",
+      "readme.md"
+    ]
+  }
+}
