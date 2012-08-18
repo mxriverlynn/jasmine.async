@@ -12,6 +12,20 @@ is painful at best.
 Thus, Jasmine.Async was born out of frustration and little bit
 of jealousy in how easy it is to do async tests with [Mocha](http://visionmedia.github.com/mocha/). 
 
+## Source Code And Downloads
+
+You can download the raw source code from the "src" folder above, or grab one of the
+many builds from the "lib" folder. 
+
+To get the latest stable release, use these links which point to the 'master' branch's
+builds:
+
+### Standard Builds
+
+* Development: [jasmine.async.js](https://raw.github.com/derickbailey/jasmine.async/master/lib/jasmine.async.js)
+
+* Production: [jasmine.async.min.js](https://raw.github.com/derickbailey/jasmine.async/master/lib/jasmine.async.min.js)
+
 ## Basic Usage
 
 ```js
@@ -63,6 +77,11 @@ describe("an async spec", function(){
 
 });
 ```
+
+## Release Notes
+
+For change logs and release notes, see the
+[changelog](https://github.com/derickbailey/jasmine.async/blob/master/changelog.md) file.
 
 ## Legal Mumbo-Jumbo (MIT License)
 
