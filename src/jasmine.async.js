@@ -6,7 +6,7 @@ this.AsyncSpec = (function(global){
   function runAsync(block){
     return function(){
       var done = false;
-      var complete = function(){ done = true; }
+      var complete = function(){ done = true; };
 
       runs(function(){
         block(complete);
@@ -15,7 +15,7 @@ this.AsyncSpec = (function(global){
       waitsFor(function(){
         return done;
       });
-    }
+    };
   }
 
   // Constructor Function
@@ -23,7 +23,7 @@ this.AsyncSpec = (function(global){
 
   function AsyncSpec(spec){
     this.spec = spec;
-  };
+  }
 
   // Public API
   // ----------
