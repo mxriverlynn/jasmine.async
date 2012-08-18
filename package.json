@@ -35,7 +35,7 @@
 
   "github": "https://github.com/derickbailey/jasmine.async",
 
-  "developmentDependencies": {
+  "devDependencies": {
     "grunt": "*",
     "grunt-rigger": "*"
   },

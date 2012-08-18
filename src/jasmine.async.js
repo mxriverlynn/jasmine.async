@@ -1,4 +1,4 @@
-AsyncSpec = (function(global){
+this.AsyncSpec = (function(global){
 
   // Private Methods
   // ---------------
