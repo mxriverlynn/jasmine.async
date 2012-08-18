@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     meta: {
       version: '0.1.0',
       banner: '// Jasmine.Async, v<%= meta.version %>\n' +
-        '// Copyright (c)<%= grunt.template.today("yyyy") %> Derick Bailey, Muted Solutions, LLC.\n' + 
+        '// Copyright (c)<%= grunt.template.today("yyyy") %> Muted Solutions, LLC. All Rights Reserved.\n' + 
         '// Distributed under MIT license\n' + 
         '// http://github.com/derickbailey/jasmine.async'
     },
