@@ -26,6 +26,15 @@ builds:
 
 * Production: [jasmine.async.min.js](https://raw.github.com/derickbailey/jasmine.async/master/lib/jasmine.async.min.js)
 
+## Donations
+
+If you like this project, or any of my open source projects, please consider
+a dontation or a tip to show your support.
+
+* [Gittip](https://www.gittip.com/derickbailey/)
+
+* [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9UT2HP6W5TLJQ)
+
 ## Basic Usage
 
 ```js
