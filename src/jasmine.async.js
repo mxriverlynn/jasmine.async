@@ -3,7 +3,7 @@ this.AsyncSpec = (function(global){
   // Private Methods
   // ---------------
   
-  function runAsync(block){
+  function runAsync(block, timeout){
     return function(){
       var done = false;
       var complete = function(){ done = true; };
@@ -14,7 +14,7 @@ this.AsyncSpec = (function(global){
 
       waitsFor(function(){
         return done;
-      });
+      }, null, timeout);
     };
   }
 
@@ -36,11 +36,11 @@ this.AsyncSpec = (function(global){
     this.spec.afterEach(runAsync(block));
   };
 
-  AsyncSpec.prototype.it = function(description, block){
+  AsyncSpec.prototype.it = function(description, block, timeout){
     // For some reason, `it` is not attached to the current
     // test suite, so it has to be called from the global
     // context.
-    global.it(description, runAsync(block));
+    global.it(description, runAsync(block, timeout));
   };
 
   return AsyncSpec;

@@ -22,6 +22,12 @@ describe("jasmine.async", function(){
     }, wait);    
   });
 
+  async.it("Allow customized timeout", function(done){
+    setTimeout(function(){
+      done();
+    }, 10000);    
+  },11000);
+
   async.afterEach(function(done){
     setTimeout(function(){
       done();
