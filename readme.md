@@ -84,6 +84,22 @@ describe("an async spec", function(){
 
   });
 
+  // run an async with customized timeout
+  async.it("did stuff slowly", function(done){
+
+    // simulate async code again
+    setTimeout(function(){
+
+      expect(1).toBe(1);
+      
+      // all async stuff done, and spec asserted
+      done();
+
+    }, 10000 /* 10secs */);    
+
+  },11000 /* 11secs */);
+
+
 });
 ```
 
