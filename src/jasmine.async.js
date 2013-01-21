@@ -9,7 +9,12 @@ this.AsyncSpec = (function(global){
       var complete = function(){ done = true; };
 
       runs(function(){
-        block(complete);
+        try{
+          block(complete);
+        } catch ( error ){
+          complete();
+          throw error;
+        }
       });
 
       waitsFor(function(){
