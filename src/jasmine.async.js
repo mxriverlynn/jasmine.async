@@ -10,7 +10,7 @@ this.AsyncSpec = (function(global){
 
       runs(function(){
         try{
-          block(complete);
+          block.call(this,complete);
         } catch ( error ){
           complete();
           throw error;
