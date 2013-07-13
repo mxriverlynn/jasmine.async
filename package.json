@@ -36,8 +36,8 @@
   "github": "https://github.com/derickbailey/jasmine.async",
 
   "devDependencies": {
-    "grunt": "*",
-    "grunt-rigger": "*"
+    "grunt": "0.3.17",
+    "grunt-rigger": "0.3.0"
   },
 
   "volo": {
