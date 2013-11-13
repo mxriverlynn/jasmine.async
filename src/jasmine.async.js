@@ -9,7 +9,7 @@ this.AsyncSpec = (function(global){
       var complete = function(){ done = true; };
 
       runs(function(){
-        block(complete);
+        block.call(this, complete);
       });
 
       waitsFor(function(){
