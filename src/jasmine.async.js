@@ -43,5 +43,7 @@ this.AsyncSpec = (function(global){
     global.it(description, runAsync(block));
   };
 
+  AsyncSpec.prototype.it = xit;
+
   return AsyncSpec;
 })(this);
