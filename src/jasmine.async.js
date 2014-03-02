@@ -7,9 +7,10 @@ this.AsyncSpec = (function(global){
     return function(){
       var done = false;
       var complete = function(){ done = true; };
+      var suite = this;
 
       runs(function(){
-        block(complete);
+        block.call(suite, complete);
       });
 
       waitsFor(function(){
