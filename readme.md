@@ -10,7 +10,7 @@ that kind of work. But the asynchronous testing story in Jasmine
 is painful at best. 
 
 Thus, Jasmine.Async was born out of frustration and little bit
-of jealousy in how easy it is to do async tests with [Mocha](http://visionmedia.github.com/mocha/). 
+of jealousy in how easy it is to do async tests with [Mocha](https://mochajs.org/). 
 
 ## Source Code And Downloads
 
