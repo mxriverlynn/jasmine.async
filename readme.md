@@ -4,7 +4,7 @@ Make Jasmine's asynchronous testing suck less.
 
 ## About Jasmine.Async
 
-I love [Jasmine](http://pivotal.github.com/jasmine/). It's a great BDD-style testing framework
+I love [Jasmine](https://jasmine.github.io/). It's a great BDD-style testing framework
 for browser based JavaScript, and my preferred tool for doing
 that kind of work. But the asynchronous testing story in Jasmine
 is painful at best. 
